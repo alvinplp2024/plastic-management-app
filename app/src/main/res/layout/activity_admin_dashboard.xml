@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="HardCodedText"
+    tools:context=".ADMIN.AdminDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff"
+            android:fontFamily="@font/opensans"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="20dp"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardDonate"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/donate"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Users"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+
+
+         <!--
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardHistory"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/history"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal" />
+            </androidx.cardview.widget.CardView>
+
+-->
+
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardFoodmap"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/map"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plastic Map"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardContact"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/contact"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complains"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAboutus"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/about"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardReport"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/loggout"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardLogout"
+                android:clickable="true"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/gray"
+                android:layout_margin="10dp"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/lgout"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="130dp"
+                    android:layout_gravity="center_horizontal"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
